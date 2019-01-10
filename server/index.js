@@ -11,4 +11,4 @@ app.use(json())
 
 
 
-app.listen(process.env.PORT, () => console.log(`Server listening on port ${process.env.PORT}`))
+app.listen(process.env.EXPRESS_PORT, () => console.log(`Server listening on port ${process.env.EXPRESS_PORT}`))
