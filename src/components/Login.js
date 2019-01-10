@@ -37,8 +37,8 @@ class Login extends Component {
                 <h1>Login</h1>
                 <img src={bank} style={{maxWidth: '100px'}}/>
                 <form onSubmit={this.handleSubmit}>
-                    <input onChange={this.handleChange} name='username' value={this.state.username} placeholder='Username'/>
-                    <input onChange={this.handleChange} name='password' type='password' value={this.state.password} placeholder='Password'/>
+                    <input onChange={this.handleChange} name='username' value={username} placeholder='Username'/>
+                    <input onChange={this.handleChange} name='password' type='password' value={password} placeholder='Password'/>
                     <button>Login</button>               
                 </form>
                 <Link to='/signup'>Signup</Link>

@@ -7,6 +7,7 @@ import Signup from './components/Signup'
 import Login from './components/Login'
 
 
+  //exact render={() => this.props.user.username ? <Account/> : <Redirect to='/'/>}
 
 class App extends Component {
   render() {
@@ -15,7 +16,7 @@ class App extends Component {
         <Router>
           <div>
             <Route exact path='/' component={Login} />  
-            <Route path='/account' component={Account}/>  
+            <Route path='/account' component={Account}/>
             <Route path='/signup' component={Signup} />  
           </div>
         </Router>

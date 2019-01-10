@@ -35,6 +35,7 @@ const signup = async (req,res) => {
 }
 
 const me = (req,res) => {
+    console.log(req.session);
     if(req.session.user) {
         res.json(req.session.user)
     }

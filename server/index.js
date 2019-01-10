@@ -27,7 +27,7 @@ massive(process.env.CONNECTION_STRING)
 
 app.post('/auth/login', login)
 app.post('/auth/signup', signup)
-app.get('auth/me', me)
+app.get('/auth/me', me)
 
 
 
